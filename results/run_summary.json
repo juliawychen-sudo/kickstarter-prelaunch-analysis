@@ -1,0 +1,23 @@
+{
+  "raw_campaigns": 378661,
+  "analysis_campaigns": 331675,
+  "train_campaigns": 265340,
+  "test_campaigns": 66335,
+  "selected_model": "XGBoost depth 8 | expanded inputs",
+  "accuracy": 0.6978065877741765,
+  "roc_auc": 0.760872758751397,
+  "brier_score": 0.19321615993976593,
+  "temporal_2017_auc": 0.7695085943229136,
+  "random_no_year_auc": 0.7523676258493932,
+  "data_sha256": "4846177ce8cfacd06a6acf06cba663b9aa5f5f77e7d0debecf5bdc861a87e3cb",
+  "python": "3.13.1",
+  "packages": {
+    "pandas": "3.0.6",
+    "numpy": "2.5.3",
+    "matplotlib": "3.11.2",
+    "seaborn": "0.13.2",
+    "scikit-learn": "1.9.1",
+    "xgboost": "3.4.1"
+  },
+  "elapsed_seconds": 731.9
+}
